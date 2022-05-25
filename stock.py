@@ -9,7 +9,7 @@ from keras.layers import LSTM, Dense, Dropout
 from google.colab import files
 dataset = files.upload()
 	
-df = pd.read_csv('TSLA.csv')
+df = pd.read_csv('dataset.csv')
 df.shape
 	
 df = df['Open'].values
